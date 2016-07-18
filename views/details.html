@@ -1,0 +1,19 @@
+<section class="container center">
+
+    <div class="row">
+        <div class="col s12 m7">
+            <div class="card">
+                <div class="card-image">
+                    <img ng-src="{{productInfo.img}}">
+                    <span class="card-title"> {{productInfo.name}}</span>
+                </div>
+                <div class="card-content">
+                </div>
+                <div class="card-action">
+                    <a ui-sref="purchase({id:productInfo.id} )">Purchase</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

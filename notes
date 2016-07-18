@@ -1,0 +1,21 @@
+What is routing?
+
+For non angular apps how would you handle routing with and without a refresh
+
+What are the different ways we can route an angular application? ng-route, ui-sref, serverside routing, custom routing
+
+ What are the disadvantages to ui-router
+ what are the advantages?
+
+ How to setup basic routes
+
+ Pull route params
+ Push route params
+
+What is $stateProvider?
+
+What is $urlRouterProvider
+
+How to remove hash from the url
+
+what is ui-sref

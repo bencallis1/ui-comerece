@@ -1,0 +1,23 @@
+
+
+<section class="container home-section center">
+    <h1>Home Page view</h1>
+
+    <div class="row ">
+        <!-- I am just repeating over allProducts array from the home controller-->
+        <div class="col l4 s12 m6" ng-repeat="product in allProducts">
+            <div class="card-content dark-text center">
+                <img ng-src="{{product.img}}" alt="">
+
+            </div>
+            <div class="card-action center">
+                <h6 class="card-title ">{{product.name}}</h6>
+                <button class="waves-effect waves-light btn">
+                    <a ui-sref="details({id:product.id })">View Item</a>
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+</section>

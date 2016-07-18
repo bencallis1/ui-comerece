@@ -1,0 +1,33 @@
+<header class="center main-header ">
+    <a  class="brand-logo dark"><h1 class="dark">Welcome to the blog click links to see nested routes</h1></a>
+
+    <nav>
+        <div class="nav-wrapper wrapper-stuff">
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="center hide-on-med-and-down">
+
+                <li><a ui-sref="blog.tips">Style tips</a></li>
+                <li><a ui-sref="blog.recent">Recent </a></li>
+                <li><a ui-sref="blog.trending">Trending</a></li>
+
+
+
+            </ul>
+
+            <ul class="side-nav right" id="mobile-demo">
+                <li><a ui-sref="blog.tips">Style tips</a></li>
+                <li><a ui-sref="blog.recent">Recent </a></li>
+                <li><a ui-sref="blog.trending">Trending</a></li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+
+</header>
+
+<main>
+    <!--Here are our nested routes-->
+    <ui-view></ui-view>
+</main>
